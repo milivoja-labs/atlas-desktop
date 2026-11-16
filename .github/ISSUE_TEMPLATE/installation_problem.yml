@@ -1,0 +1,86 @@
+name: Installation problem
+description: Setup failed, or ATLAS doesn't start after installing
+labels: ["installation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Don't include passwords or personal information.
+        Please check [INSTALLATION.md](https://github.com/milivoja-labs/atlas-desktop/blob/main/INSTALLATION.md#8-troubleshooting) and [KNOWN_ISSUES.md](https://github.com/milivoja-labs/atlas-desktop/blob/main/KNOWN_ISSUES.md) first.
+  - type: input
+    id: atlas_version
+    attributes:
+      label: ATLAS Setup file name
+      placeholder: "ATLAS_Setup_0.6.1_Alpha.exe"
+    validations:
+      required: true
+  - type: dropdown
+    id: checksum
+    attributes:
+      label: Did the SHA-256 checksum match SHA256SUMS.txt?
+      options:
+        - "Yes"
+        - "No"
+        - "I didn't check"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Press Win+R, type `winver`, press Enter.
+    validations:
+      required: true
+  - type: input
+    id: cpu
+    attributes:
+      label: Processor (CPU)
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card (GPU), its memory and NVIDIA driver version
+      placeholder: "NVIDIA RTX 3060, 12 GB, driver 581.xx"
+    validations:
+      required: true
+  - type: input
+    id: ram
+    attributes:
+      label: Memory (RAM) and free disk space
+      placeholder: "16 GB RAM, 80 GB free on C:"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where did it go wrong?
+      options:
+        - Setup wouldn't start
+        - Setup's requirements check
+        - A Setup step failed (which one below)
+        - Setup finished, but ATLAS doesn't start
+        - ATLAS starts, but voice or AI doesn't work
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened
+      description: The exact message you saw, and which step failed.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Install log
+      description: |
+        Attach `<install folder>\atlas-os\launcher-logs\install.log` (default install folder: `%LOCALAPPDATA%\Atlas OS`). Look through it first: it contains folder paths that may include your Windows user name.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I didn't include passwords or personal information.
+          required: true

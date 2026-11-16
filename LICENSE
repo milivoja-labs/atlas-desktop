@@ -1,0 +1,91 @@
+ATLAS DESKTOP — ALPHA SOFTWARE LICENCE AGREEMENT
+Version 0.6.1-alpha
+
+Copyright (c) 2026 MILIVOJA HOLDING LLC. All rights reserved.
+
+This agreement is between you and MILIVOJA HOLDING LLC ("we", "us"), the
+maker of ATLAS. It covers the ATLAS Desktop software, its installer, and any
+updates, documentation and files that come with them ("the Software").
+Downloading, installing or using the Software means you accept this
+agreement. If you don't accept it, don't install or use the Software.
+
+1. LICENCE
+   We grant you a personal, non-exclusive, non-transferable, revocable,
+   free-of-charge licence to install and use the Software on computers you
+   own or control, for personal evaluation and testing of this alpha
+   release.
+
+2. RESTRICTIONS
+   You may not, except as far as applicable law expressly allows despite
+   this restriction:
+   a) copy, modify, translate or create derivative works of the Software,
+      including the program files, scripts and user interface it installs;
+   b) decompile, disassemble or reverse engineer the Software, or extract
+      its program files for any use other than running ATLAS;
+   c) redistribute, sell, rent, lend, sublicense or host the Software, or
+      make it available to others (share the official download page
+      instead);
+   d) remove or change any copyright, licence or attribution notices;
+   e) use the Software to build a competing product, or in a way that
+      breaks the law or the third-party licences listed below.
+
+3. THIRD-PARTY COMPONENTS
+   The Software uses open-source software and AI models that keep their own
+   licences: for example Chatterbox-Turbo (MIT), Whisper (MIT), Qwen models
+   (Apache-2.0), Llama 3.2 (Llama 3.2 Community License), Gemma models
+   (Gemma Terms of Use), Ollama (MIT), Python (PSF), three.js (MIT) and
+   occt-import-js (LGPL-2.1). The full list is in THIRD_PARTY_NOTICES.txt,
+   installed with ATLAS. For those components, their own licences apply
+   instead of this agreement, and nothing in this agreement limits your
+   rights under them. Some components and models are downloaded by Setup
+   directly from their publishers.
+
+4. ALPHA SOFTWARE
+   The Software is an early alpha. It may contain errors, be incomplete,
+   lose data, stop working, or change without notice. Keep backups of
+   anything important. ATLAS Desktop is an application that runs on
+   Windows; it is not an operating system and does not replace Windows.
+
+5. YOUR DATA
+   The Software stores your data on your own computer. We don't collect it.
+   How the Software uses the internet is described in PRIVACY.md. You are
+   responsible for the content you give the Software and for anything you
+   ask it to do on your computer.
+
+6. FEEDBACK
+   If you send us feedback, bug reports or suggestions, you allow us to use
+   them to improve our products without any obligation to you. Don't send
+   personal data, passwords or private documents.
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE, ACCURACY AND NON-INFRINGEMENT. AI-GENERATED ANSWERS
+   MAY BE WRONG. DON'T RELY ON THEM FOR MEDICAL, LEGAL, FINANCIAL, SAFETY
+   OR OTHER IMPORTANT DECISIONS.
+
+8. LIMITATION OF LIABILITY
+   TO THE FULLEST EXTENT PERMITTED BY LAW, WE ARE NOT LIABLE FOR ANY
+   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR
+   LOSS OF DATA, PROFITS OR USE, ARISING FROM THE SOFTWARE. OUR TOTAL
+   LIABILITY IS LIMITED TO THE AMOUNT YOU PAID US FOR THE SOFTWARE, WHICH
+   FOR THIS FREE RELEASE IS USD 0. Some jurisdictions don't
+   allow these limits, so they may not apply to you; your statutory
+   consumer rights are not affected.
+
+9. TERMINATION
+   This licence ends automatically if you break it. You may end it at any
+   time by uninstalling the Software. Sections 2 and 6–10 survive
+   termination.
+
+10. GENERAL
+   This agreement is governed by the laws of the State of Wyoming, USA,
+   without regard to its conflict-of-law rules. If any part of this agreement is
+   unenforceable, the rest stays in effect. We may publish updated terms
+   with new releases; the terms shipped with a release apply to that
+   release. We may transfer this agreement, and our rights in the
+   Software, to an affiliate or successor company that carries on the ATLAS
+   business; this agreement then continues between you and that company on
+   the same terms. You may not transfer this agreement.
+
+Contact: https://www.atlascomputers.ai

@@ -1,0 +1,86 @@
+name: Bug report
+description: Something in ATLAS doesn't work as expected
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing ATLAS. **This issue is public.** Never include passwords, personal documents, private conversations or anything ATLAS learned about you.
+        Security problems go to the repository's Security tab ("Report a vulnerability"), not here.
+  - type: input
+    id: atlas_version
+    attributes:
+      label: ATLAS version
+      description: Settings → About shows it.
+      placeholder: "0.6.1"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Press Win+R, type `winver`, press Enter.
+      placeholder: "Windows 11 24H2 (build 26100)"
+    validations:
+      required: true
+  - type: input
+    id: cpu
+    attributes:
+      label: Processor (CPU)
+      placeholder: "AMD Ryzen 7 7700X"
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card (GPU) and its memory
+      placeholder: "NVIDIA RTX 4070 SUPER, 12 GB"
+    validations:
+      required: true
+  - type: input
+    id: ram
+    attributes:
+      label: Memory (RAM)
+      placeholder: "32 GB"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ATLAS
+        2. Say "..."
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Settings → About → **Send logs** saves `ATLAS-logs-<date>.zip` to your Desktop: logs and PC specs only, nothing uploaded. **Open it and look through it first**, then drag it here. It may contain file or app names from things you asked ATLAS to do.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Crop out anything private.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I didn't include passwords, personal documents or private conversations.
+          required: true

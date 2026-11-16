@@ -1,0 +1,29 @@
+name: Feature request
+description: An idea for what ATLAS should do
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Ideas from real use shape what we build next. **This issue is public.** Keep personal details out.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like ATLAS to help you with?
+      description: Describe the situation or need, not just the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How do you imagine it working?
+      description: What you'd say or do, and what ATLAS would do in return.
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle this today?
+  - type: input
+    id: version
+    attributes:
+      label: ATLAS version you're using (if any)
+      placeholder: "0.6.1"
