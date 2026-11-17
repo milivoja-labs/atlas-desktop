@@ -3,6 +3,10 @@
 **A voice AI computer that runs entirely on your PC.** Talk to it, and it answers out loud in about 0.7 seconds. It works with your files and apps, and it remembers what matters to you. No cloud, no account with us, and it works offline after setup.
 
 <p align="center">
+  <img src="docs/demo.gif" alt="ATLAS demo: a spoken greeting, recalling a project date, dictating a note and opening a CAD assembly in SolidWorks" width="800">
+</p>
+
+<p align="center">
   <a href="https://github.com/milivoja-labs/atlas-desktop/releases/tag/v0.6.1-alpha"><b>Download the Windows alpha</b></a> ·
   <a href="#what-you-can-say">What it does</a> ·
   <a href="#requirements">Requirements</a> ·
