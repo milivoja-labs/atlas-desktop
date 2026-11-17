@@ -47,7 +47,7 @@ ATLAS Desktop is the software half, running as an app on Windows. A dedicated AT
 ## Download and install
 
 1. Download **[`ATLAS_Setup_0.6.1_Alpha.exe`](https://github.com/milivoja-labs/atlas-desktop/releases/tag/v0.6.1-alpha)** (about 25 MB).
-2. Optional: check it against [`SHA256SUMS.txt`](https://github.com/milivoja-labs/atlas-desktop/releases/tag/v0.6.1-alpha) ([how](INSTALLATION.md#2-verify-the-download)).
+2. Optional: check it against [`SHA256SUMS.txt`](https://github.com/milivoja-labs/atlas-desktop/releases/tag/v0.6.1-alpha) ([how](INSTALLATION.md#2-verify-the-download)), or see its [VirusTotal report](https://www.virustotal.com/gui/file/3495a1ef74b00ab59e433295fdb0f2cebb5aee2111f7e770fe9e7f8b79b42a05).
 3. Run it. Windows SmartScreen will warn you because the installer isn't code-signed yet: click **More info → Run anyway**. Setup checks your PC first and needs no administrator rights.
 4. Setup downloads the AI model, speech recognition and the voice (about 12 GB, 30–90 minutes).
 5. Launch ATLAS and say hello.
