@@ -44,6 +44,11 @@ Today you adapt to the computer: you learn each app, manage windows and connect 
 
 ATLAS Desktop is the software half, running as an app on Windows. A dedicated ATLAS computer is in development (you can [reserve one](https://www.atlascomputers.ai) for free).
 
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="The ATLAS home screen: a glowing particle orb on black" width="720">
+  <br><sub>The ATLAS home screen. Tap the orb and talk, or press / to type.</sub>
+</p>
+
 ## Download and install
 
 1. Download **[`ATLAS_Setup_0.6.1_Alpha.exe`](https://github.com/milivoja-labs/atlas-desktop/releases/tag/v0.6.1-alpha)** (about 25 MB).
