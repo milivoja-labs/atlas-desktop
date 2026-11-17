@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Installed ATLAS? Share how setup went
+    url: https://github.com/milivoja-labs/atlas-desktop/issues/1
+    about: Add your GPU, Windows version and how setup went to the pinned installation reports thread, even if everything worked.
+  - name: Questions and ideas
+    url: https://github.com/milivoja-labs/atlas-desktop/discussions
+    about: Ask a question, share an idea or tell us what you'd want ATLAS to do.
   - name: Security vulnerability (private)
     url: https://github.com/milivoja-labs/atlas-desktop/security/advisories/new
     about: Report security problems privately, not as a public issue.
